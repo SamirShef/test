@@ -1,7 +1,8 @@
-import client
 import telebot
 
-bot = telebot.TeleBot(client.TOKEN)
+import telebot
+
+bot = telebot.TeleBot("7427951807:AAE_dNHJ2tT0BCXvNOPJK9sQ-8KlgKMJ0h8")
 @bot.message_handler(commands=['start'])
 def handle_start(message):
     chat_id = message.chat.id
